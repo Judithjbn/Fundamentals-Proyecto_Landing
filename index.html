@@ -4,11 +4,13 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Proyecto 1 - Fundamentals</title>
+        <meta name="keywords" content="Mercedes, Maybach, accesories, stores, electric car " />
         <link rel="stylesheet" href="styles/main.css" />
         <script src="https://unpkg.com/feather-icons"></script>
     </head>
     <body>
-        <nav class="navbar">
+        <header>
+            <nav class="navbar">
             <div class="navbar__logo">
                 <img src="assets/logo.png" alt="Logo" width="20px" />
             </div>
@@ -21,8 +23,8 @@
             </ul>
 
             <div class="navbar__icons">
-                <img src="assets/user.svg"></img>
-                <img src="assets/cart.svg"></img>
+                <img src="assets/user.svg"/>
+                <img src="assets/cart.svg"/>
             </div>
 
             <button class="navbar__hamburger">
@@ -30,8 +32,8 @@
                 <span></span>
                 <span></span>
             </button>
-        </nav>
-
+            </nav>
+        </header>
         <section class="hero">
             <div class="hero__content">
                 <h1>New Mercedes CLS</h1>
@@ -228,7 +230,7 @@
             </div>
         </section>
         <section class="desing" id="desing">
-            <img class="not-desktop" src="assets/design.jpg" alt="Mercedes-Maybach design">
+            <img class="not-desktop" src="assets/design.jpg" alt="Mercedes-Maybach design"/>
             <h3>Red as tentation</h3>
             <p>Good design is what drives us, and we're<br class="not-mobile"/>
                 proud to share that Mercedes-Maybach has<br class="not-mobile"/>
@@ -243,10 +245,10 @@
                     <a href="#" class="">More info</a>
                 </div>
                 <div class="maybach__image">
-                    <img src="assets/mayback-sec.jpg" alt="Mercedes Maybach wheel" width="300px">
+                    <img src="assets/mayback-sec.jpg" alt="Mercedes Maybach wheel" width="300px"/>
                 </div>
         </section>
-        <section class="footer">
+        <footer class="footer">
             <div class="footer__contact">
                 <div class="footer__contact-text">
                     <p>Ready to own the car of your dreams?. Mercedes-Maybach are now available in <br class="not-mobile">
@@ -261,7 +263,7 @@
                     <h4>Join the power.</h4>
                     <p>Sign up for our newsletter.</p>
                 </div>
-                        <form class="footer_subscribe-form action="https://formspree.io/f/xbjbgjlw" method="POST">
+                        <form class="footer_subscribe-form">
                             <div class="footer_suscribe-form-email">
                                 <input type="email" name="email" placeholder="Enter your email" required>
                                 <input type="submit" value="Subscribe">
@@ -309,11 +311,8 @@
                     <li><a href="">Privacy policy</a></li>
                     <li><a href="">Terms & conditions</a></li>
                 </ul>
-                <ul>
-                    <li></li>
-                </ul>
             </div>
-        </section>
+        </footer>
 
         <script src="js/main.js"></script>
     </body>
